@@ -65,7 +65,7 @@ for scheme in INSTALL_SCHEMES.values():
 # Compile the list of packages available, because distutils doesn't have
 # an easy way to do this.
 packages, data_files = [], []
-root_dir = os.path.dirname(__file__)
+root_dir = os.path.dirname(os.path.abspath(__file__))
 if root_dir != b'':
     os.chdir(root_dir)
 project_dir = b'mopidy'
