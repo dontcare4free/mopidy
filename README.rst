@@ -1,3 +1,5 @@
+My (DC4F/Nullable) attempt at getting the pre-0.1.0 despotify/spytify backend working again. Playlist support intentionally disabled (less work for me, and the lack of it was a req for what I wanted anyway). Original README below:
+
 ******
 Mopidy
 ******
